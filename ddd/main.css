@@ -42,6 +42,24 @@ canvas {
   background-size: 40px 40px;
 }
 
+.infos {
+  position: absolute;
+  font-family: 'Lato', sans-serif;
+  /*-webkit-font-smoothing: antialiased;*/
+  top: 27px;
+  right: 25px;
+  color: #aaa;
+  font-size: 10px;
+  z-index: 10;
+  opacity: .7;
+  text-align: right;
+}
+
+.infos a {
+  color: #fff;
+  text-decoration: none;
+}
+
 .dg.ac {
   z-index: 10 !important;
 }
