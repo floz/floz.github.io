@@ -59,12 +59,12 @@ canvas {
   color: #fff;
   text-decoration: none;
 }
-
+/*
 .dg.ac {
   z-index: 10 !important;
-}
+}*/
 
-/*.dg.main {*/
-  /*display: none;*/
+.dg.main {
+  display: none;
   /*z-index: 10;*/
-/*}*/
+}
