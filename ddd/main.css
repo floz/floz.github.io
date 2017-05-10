@@ -21,9 +21,32 @@ html,body{
   background-image: url( ./imgs/noisebig.png );
   background-size: 1024px 1024px;
   background-repeat: repeat;
-  opacity: .115;
+  opacity: .15;
+  z-index: 1;
 }
 
-.dg.main {
-  display: none;
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
+
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 10;
+  width: 40px;
+  height: 40px;
+  background-image: url( ./imgs/logo-transparent-bw-small.png );
+  background-size: 40px 40px;
+}
+
+.dg.ac {
+  z-index: 10 !important;
+}
+
+/*.dg.main {*/
+  /*display: none;*/
+  /*z-index: 10;*/
+/*}*/
